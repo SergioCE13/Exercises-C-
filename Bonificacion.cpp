@@ -8,9 +8,9 @@ int main(){
 
 	int tiempo = 0;
 	double bonificacion = 0, sueldo = 0;
-	cout<<"Porfavor, ingresa tus años de antigüedad en la empresa: " <<endl;
+	cout<<"Porfavor, ingresa tus aÃ±os de antigÃ¼edad en la empresa: " <<endl;
 	cin>>tiempo;
-	cout<<"A continuación ingresa tu salario mensual: " << endl;
+	cout<<"A continuaciÃ³n ingresa tu salario mensual: " << endl;
 	cin>>sueldo;
 	
 	if (tiempo < 5) {
@@ -30,8 +30,8 @@ int main(){
 	}
 	
 	sueldo = sueldo + (sueldo * bonificacion);
-	cout<<"la bonificación que vas a recibir es de: " << bonificacion*100 << "%" <<endl;
-	cout<<"Tu salario ya con la bonificación es de: $" << sueldo <<endl;
+	cout<<"la bonificaciÃ³n que vas a recibir es de: " << bonificacion*100 << "%" <<endl;
+	cout<<"Tu salario ya con la bonificaciÃ³n es de: $" << sueldo <<endl;
 	
 	return 0;
 }
